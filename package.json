@@ -1,0 +1,16 @@
+{
+  "name": "javascript-study-data-structures",
+  "description": "JavaScript study on data structures.",
+  "type": "module",
+  "main": "main.ts",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "data-structures"
+  ],
+  "author": "Kasnix",
+  "license": "MIT",
+  "scripts": {
+    "sll": "node --experimental-strip-types 1-singly-linked-lists.ts"
+  }
+}
