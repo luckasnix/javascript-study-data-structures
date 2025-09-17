@@ -13,7 +13,7 @@ class SinglyLinkedList {
   public tail: SinglyLinkedListNode | null;
   public length: number;
 
-  constructor () {
+  constructor() {
     this.head = null;
     this.tail = null;
     this.length = 0;
@@ -190,7 +190,6 @@ class SinglyLinkedList {
     }
     if (offset > (this.length - 1)) {
       index = offset % this.length;
-      console.log(index);
     }
     const newTail = this.get(index - 1);
     const newHead = newTail?.next ?? null;
