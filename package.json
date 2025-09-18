@@ -1,10 +1,9 @@
 {
-  "name": "javascript-study-data-structures",
-  "description": "JavaScript study on data structures.",
+  "name": "study-typescript-data-structures",
+  "description": "Study on data structures in TypeScript.",
   "type": "module",
   "main": "main.ts",
   "keywords": [
-    "javascript",
     "typescript",
     "data-structures"
   ],
