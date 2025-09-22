@@ -10,7 +10,7 @@
   "author": "Kasnix",
   "license": "MIT",
   "scripts": {
-    "sll": "node --experimental-strip-types 1-singly-linked-list.ts",
-    "dll": "node --experimental-strip-types 2-doubly-linked-list.ts"
+    "sll": "node --experimental-strip-types 1-singly-linked-list/main.ts",
+    "dll": "node --experimental-strip-types 2-doubly-linked-list/main.ts"
   }
 }
