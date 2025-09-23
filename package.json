@@ -11,6 +11,7 @@
   "license": "MIT",
   "scripts": {
     "sll": "node --experimental-strip-types 1-singly-linked-list/main.ts",
-    "dll": "node --experimental-strip-types 2-doubly-linked-list/main.ts"
+    "dll": "node --experimental-strip-types 2-doubly-linked-list/main.ts",
+    "stack": "node --experimental-strip-types 3-stack/main.ts"
   }
 }
