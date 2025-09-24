@@ -1,11 +1,12 @@
 {
-  "name": "study-typescript-data-structures",
-  "description": "Study on data structures in TypeScript.",
+  "name": "study-typescript-data-structures-and-algorithms",
+  "description": "Study of data structures and algorithms in TypeScript.",
   "type": "module",
   "main": "main.ts",
   "keywords": [
     "typescript",
-    "data-structures"
+    "data-structures",
+    "algorithms"
   ],
   "author": "Kasnix",
   "license": "MIT",
