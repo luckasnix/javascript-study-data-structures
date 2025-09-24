@@ -19,7 +19,7 @@ class Stack<Data> {
     this.size = 0;
   }
 
-  private isEmpty() {
+  public isEmpty() {
     if (this.first === null && this.last === null && this.size === 0) {
       return true;
     }
