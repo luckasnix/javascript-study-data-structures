@@ -10,10 +10,17 @@
   ],
   "author": "Kasnix",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "sll": "node --experimental-strip-types 1-singly-linked-list/main.ts",
-    "dll": "node --experimental-strip-types 2-doubly-linked-list/main.ts",
-    "stack": "node --experimental-strip-types 3-stack/main.ts",
-    "queue": "node --experimental-strip-types 4-queue/main.ts"
+    "sll": "node --experimental-strip-types ./3-singly-linked-list/main.ts",
+    "dll": "node --experimental-strip-types ./4-doubly-linked-list/main.ts",
+    "stack": "node --experimental-strip-types ./5-stack/main.ts",
+    "queue": "node --experimental-strip-types ./6-queue/main.ts",
+    "test:array": "node --experimental-strip-types --test ./2-array/exercises.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6"
   }
 }
